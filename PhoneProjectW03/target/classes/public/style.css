@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px auto;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.adicionar{
+    width: 50%;
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.update{
+    width: 65%;
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: .3s;
+    margin-bottom: 10px;
+}
+
+.adicionar form{
+    margin: auto;
+}
+
+form .botao{
+    padding: 6px;
+    background-color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+form .botao:hover{
+    transform: scale(1.05);
+}
+
+.outros{
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.mostrar{
+    background-color: lightgray;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.remove{
+    background-color: lightgray;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.listar{
+    background-color: lightgray;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+form{
+    margin: auto;
+}
+
+form input{
+    margin-top: 10px;
+}

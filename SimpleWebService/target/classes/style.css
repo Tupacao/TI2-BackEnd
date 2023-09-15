@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: lightsteelblue;
+}
+
+/* Meio */
+
+.meio{
+    height: 500px;
+    overflow-y: scroll;
+    margin-top: 100px;
+}
+
+form{
+    margin: auto;
+}
+
+form input{
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+    transition: .3s;
+}
+
+form input:focus{
+    background-color: lightgray;
+}
+
+.bloco{
+    justify-content: space-between;
+    width: 50%;
+    display: flex;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.bloco:hover{
+    transform: scale(1.01);
+}
+
+.texto{
+    margin: auto 10px;
+}
+
+.link{
+    margin: auto 40px;
+}
+
+.link h1{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.link h1:hover{
+    transform: scale(1.02);
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+}

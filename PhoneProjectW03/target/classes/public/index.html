@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e65e29a543.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <section>
+
+        <div class="adicionar">
+
+            <h1>Inserir novo Aparelho</h1>
+
+            <form action="/adicionar" method="post">
+
+                <input type="text" placeholder="Marca" name="marca" required>
+                <input type="number" placeholder="Preco" name="preco" required>
+                <input type="number" placeholder="Ano" name="ano" required>
+                <input class = "botao" type="submit" value="Add">
+
+            </form>
+
+        </div>
+
+        <div class="update">
+
+            <h1>Atualizar Aparelho</h1>
+
+            <form action="/update" method="get">
+
+                <input type="text" placeholder="ID" name="id" required>
+                <input type="text" placeholder="Marca" name="marca" required>
+                <input type="number" placeholder="Preco" name="preco" required>
+                <input type="number" placeholder="Ano" name="ano" required>
+                <input class = "botao" type="submit" value="Update">
+
+            </form>
+
+        </div>
+
+        <div class="outros">
+
+            <div class="mostrar">
+
+                <h1>Pesquisar Aparelho por ID</h1>
+
+                <form action="/mostrar" method="get">
+                    
+                    <input type="number" placeholder="Insira ID" name="id" required>
+                    <input type="submit" class = "botao" value="Pesquisar">
+    
+                </form>
+            </div>
+            
+            <div class="remove">
+
+                <h1>Remover Aparelho por ID</h1>
+
+                <form action="/remove" method="delete">
+    
+                    <input type="number" placeholder="Insira o ID" name="id" required>
+                    <input type="submit" class = "botao" value="Remover">
+    
+                </form>
+            </div>
+
+            <div class="listar">
+                <form action="/listar" method="get">
+    
+                    <input type="submit" class = "botao" value="Listar todos os produtos">
+    
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
