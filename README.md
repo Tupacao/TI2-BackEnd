@@ -7,3 +7,4 @@
 > * [Hello World com SparkFrmawork](https://github.com/Tupacao/TI2-BackEnd/tree/master/HelloWorldSpark/src/main/java/teste)
 > * [Servidor SimplesSpark](https://github.com/Tupacao/TI2-BackEnd/tree/master/SimpleWebService/src/main)
 > * [Projeto FrontBackend W03](https://github.com/Tupacao/TI2-BackEnd/tree/master/PhoneProjectW03/src/main)
+> * [Sistem Inteligente W04](https://github.com/Tupacao/TI2-BackEnd/tree/master/Sistema_Inteligente)
