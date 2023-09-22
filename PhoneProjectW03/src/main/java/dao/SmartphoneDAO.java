@@ -39,7 +39,7 @@ public class SmartphoneDAO extends DAO {
 		try {
 			Statement st = conexao.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
 			String sql = "SELECT * FROM smartphones WHERE id="+id;
-			ResultSet rs = st.executeQuery(sql);	
+			ResultSet rs = st.executeQuery(sql);
 	        if(rs.next()){            
 	        	smartphone = new Smartphones(rs.getInt("id"), rs.getInt("ano"), (float)rs.getDouble("preco"), rs.getString("marca"));
 	        }
@@ -79,16 +79,16 @@ public class SmartphoneDAO extends DAO {
 	} 
 	
 	public List<Smartphones> getOrderByMarca() {
-		return get("marca");		
+		return get("marca");	
 	}
 	
 	
 	public List<Smartphones> getOrderByPreco() {
-		return get("preco");		
+		return get("preco");
 	}
 
     public List<Smartphones> getOrderByAno() {
-		return get("ano");		
+		return get("ano");
 	}
 	
 	private List<Smartphones> get(String orderBy) {
